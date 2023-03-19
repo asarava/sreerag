@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="keywordname_index" value="7"/>
+  <parameter name="executionstatus_index" value="5"/>
+  <parameter name="data_index" value="9"/>
+  <parameter name="output_path" value="C:\Selenium\Outputs\"/>
+  <parameter name="excelsheet_name" value="Framework_Sheet"/>
+  <parameter name="excel_path" value="C:\Selenium\Inputs\2022.1.1.0.xlsx"/>
+  <parameter name="tobeexecuted_index" value="3"/>
+  <parameter name="executioncomments_index" value="6"/>
+  <parameter name="elementid_index" value="8"/>
+  <test name="Test(failed)">
+    <parameter name="keywordname_index" value="7"/>
+    <parameter name="executionstatus_index" value="5"/>
+    <parameter name="data_index" value="9"/>
+    <parameter name="output_path" value="C:\Selenium\Outputs\"/>
+    <parameter name="excelsheet_name" value="Framework_Sheet"/>
+    <parameter name="excel_path" value="C:\Selenium\Inputs\2022.1.1.0.xlsx"/>
+    <parameter name="tobeexecuted_index" value="3"/>
+    <parameter name="executioncomments_index" value="6"/>
+    <parameter name="elementid_index" value="8"/>
+    <classes>
+      <class name="Wrench_Suite.Wrench_Framework">
+        <methods>
+          <include name="driver_function" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Wrench_Suite.Wrench_Framework -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

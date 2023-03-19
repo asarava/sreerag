@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false"> 
+  <test name="Test">
+ 
+ 
+  	<parameter name="excel_path" value="C:\Selenium\Inputs\Multiple add.xlsx" />
+  	<parameter name="output_path" value="C:\Selenium\Outputs\" />
+  	<parameter name="tobeexecuted_index" value="3" />
+  	<parameter name="executionstatus_index" value="5" />
+  	<parameter name="executioncomments_index" value="6" />
+  	<parameter name="keywordname_index" value="7" />
+  	<parameter name="elementid_index" value="8" />
+  	<parameter name="data_index" value="9" />
+  	<parameter name="excelsheet_name" value="Framework_Sheet" />
+  	 
+  	 
+    <classes>
+      <class name="Wrench_Suite.Wrench_Framework"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
